@@ -1,1 +1,1 @@
-export const URL = "http://localhost:5000/user";
+export const URL = "https://my-password-reset.netlify.app";
