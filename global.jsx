@@ -1,2 +1,1 @@
-export const URL =
-  "https://password-reset-be-rgokulravichandrans-projects.vercel.app";
+export const URL = "https://password-reset-be-two.vercel.app";
