@@ -15,7 +15,7 @@ function Forgetpassword() {
     e.preventDefault();
     setLoading(true);
     try {
-      let res = await AxiosService.post(`${URL}/forget-password`, {
+      let res = await AxiosService.post(`${URL}/user/forget-password`, {
         email,
       });
       if (res.status == 201) {

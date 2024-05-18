@@ -23,7 +23,7 @@ function Signup() {
     e.preventDefault();
     setLoading(true);
     try {
-      let res = await AxiosService.post(`${URL}/signup`, {
+      let res = await AxiosService.post(`${URL}/user/signup`, {
         userName,
         email,
         password,

@@ -22,7 +22,7 @@ function Login() {
     e.preventDefault();
     setLoading(true);
     try {
-      let res = await AxiosService.post(`${URL}/login`, {
+      let res = await AxiosService.post(`${URL}/user/login`, {
         email,
         password,
       });
