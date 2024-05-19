@@ -24,7 +24,7 @@ function Resetpassword() {
     setLoading(true);
     try {
       let res = await AxiosService.post(
-        `${URL}/reset-password/${randomString}/${expirationTimestamp}`,
+        `${URL}/user/reset-password/${randomString}/${expirationTimestamp}`,
         {
           newPassword: password,
         }
